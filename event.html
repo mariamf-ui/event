@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Landing Page</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Customize the navbar */
+  .navbar {
+    background-color:#f5f5f5;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+    .jumbotron {
+      background-color: #f8f9fa;
+    }
+    .speaker-img, .program-img, .card-img-top {
+      max-width: 100%;
+      height: auto;
+    }
+    .map-container {
+      height: 400px;
+      width: 100%;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .list-item {
+      margin-bottom: 10px;
+    }
+    .list-group {
+    margin-bottom: 2rem;
+  }
+  
+  .list-group-item {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f7f7f7;
+  }
+  
+  .list-group-item:hover {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Hargeisa Event</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#details">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Header -->
+  <header class="bg-success text-white text-center py-5">
+    <h1 class="py-5">AI & Beyond Forum</h1>
+    <h4>Date and Time: 10/10/024</h4>
+  </header>
+
+  <!-- Introduction -->
+  <div class="container my-5">
+    <div class="jumbotron">
+      <h2 class="display-4 bg-success">Welcome to Our Event</h2>
+      <p class="lead">We are thrilled to host an exceptional event that brings together industry leaders, innovators, and enthusiasts. Join us for a day filled with insightful talks, interactive sessions, and valuable networking opportunities.</p>
+      <ul>
+        <li class="list-item">Engaging Keynote Speakers</li>
+        <li class="list-item">Interactive Workshops</li>
+        <li class="list-item">Networking Opportunities</li>
+        <li class="list-item">Cutting-Edge Exhibitions</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Upcoming Events -->
+  <div class="container my-5">
+    <h2 class="bold bg-success ">Upcoming Events</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./al.jpg" class="card-img-top" alt="Upcoming Event 1">
+          <div class="card-body">
+            <h5 class="card-title">"AI & Beyond: Exploring the Frontier of Intelligent Technologies" </h5>
+            <p class="card-text">Date :10/10/024</p>
+            <p class="card-text">Brief description of the event. Highlights of what to expect and why it's exciting.</p>
+            <ul>
+              <li class="list-item">Special Guest Appearance</li>
+              <li class="list-item">Exclusive Networking Session</li>
+              <li class="list-item">Live Demonstrations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./al.jpg" class="card-img-top" alt="Upcoming Event 2">
+          <div class="card-body">
+            <h5 class="card-title">"AI & Beyond Forum: Navigating the Future of Artificial Intelligence" </h5>
+            <p class="card-text" bold-5>Date : 12/10/024</p>
+            <p class="card-text">Brief description of the event. Information on key speakers, topics, and activities.</p>
+            <ul>
+              <li class="list-item">Panel Discussions</li>
+              <li class="list-item">Workshops on Latest Trends</li>
+              <li class="list-item">Q&A Sessions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./Al stu.jpg" class="card-img-top" alt="Upcoming Event 3">
+          <div class="card-body">
+            <h5 class="card-title">"AI & Beyond: Charting the Course for Future Technologies" </h5>
+            <p class="card-text">Date : 11/10/024</p>
+            <p class="card-text">Brief description of the event. What makes this event special and relevant.</p>
+            <ul>
+              <li class="list-item">Hands-On Workshops</li>
+              <li class="list-item">Interactive Panel Sessions</li>
+              <li class="list-item">Networking Lunch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Services -->
+  <div class="container my-5">
+   <h4 class="bold bg-success">Our Services</h4>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./bussin.jpg" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Service 1</h5>
+            <p class="card-text">At the AI & Beyond Forum, our services provide cutting-edge AI solutions designed to enhance business efficiency and drive innovation.</p>
+            <ul>
+              <li class="list-item">Advanced Machine Learning Models</li>
+              <li class="list-item">Real-Time Data Analytics</li>
+              <li class="list-item">Robust Integration Capabilities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./soluti.jpg" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">At the AI & Beyond Forum, our services deliver comprehensive AI solutions with key features.</p>
+            <ul>
+              <li class="list-item">Custom AI Model Development </li>
+              <li class="list-item">Scalable Cloud Integration</li>
+              <li class="list-item">Predictive Analytics and Insights.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./algora.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Service 3</h5>
+            <p class="card-text">"Our services at the AI & Beyond Forum offer powerful AI tools with features such as.</p>
+            <ul>
+              <li class="list-item">Tailored Machine Learning Algorithms</li>
+              <li class="list-item">Seamless Data Integration</li>
+              <li class="list-item">Advanced Predictive Analytics.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Track Record -->
+  <div class="container my-5">
+    <h2 class="bold bg-success">Our Track Record</h2>
+    <p>We have a proven track record of successful events and satisfied clients. Our team excels in delivering top-notch experiences with attention to detail and innovation. Here are some highlights:</p>
+    <ul>
+      <li class="list-item">Event A: Description of the successful event, AI & Beyond Forum reflects a proven history of impactful AI solutions and industry milestones.</li>
+      <li class="list-item">Event B: Overview of the event's success, key achievements, and client feedback and also  highlights a history of successful AI innovations and industry-leading advancements.</li>
+      <li class="list-item">Event C: Summary of the event’s impact and testimonials from participants.</li>
+    </ul>
+  </div>
+
+  <!-- Success Stories -->
+  <div class="container my-5">
+    <h2 class="bold bg-success">Success Stories</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./outco.jpg" class="card-img-top" alt="Success Story 1">
+          <div class="card-body">
+            <h5 class="card-title">Success Story 1</h5>
+            <p class="card-text">The AI & Beyond Forum highlights success stories where AI has revolutionized industries and achieved remarkable outcomes.</p>
+            <ul>
+              <li class="list-item">Challenge 1</li>
+              <li class="list-item">Outcome 1</li>
+              <li class="list-item">Key Achievement 1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./succ2.jpg" class="card-img-top" alt="Success Story 2">
+          <div class="card-body">
+            <h5 class="card-title">Success Story 2</h5>
+            <p class="card-text">Discover how AI innovations showcased at the forum have led to groundbreaking successes and industry advancements.</p>
+            <ul>
+              <li class="list-item">Challenge 2</li>
+              <li class="list-item">Outcome 2</li>
+              <li class="list-item">Key Achievement 2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./succ3.jpg" class="card-img-top" alt="Success Story 3">
+          <div class="card-body">
+            <h5 class="card-title">Success Story 3</h5>
+            <p class="card-text">The AI & Beyond Forum highlights success stories where AI has revolutionized industries and achieved remarkable outcomes.</p>
+            <ul>
+              <li class="list-item">Challenge 3</li>
+              <li class="list-item">Outcome 3</li>
+              <li class="list-item">Key Achievement 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="details" class="container my-5">
+    <h2 class="text-center">Event Details & Schedule</h2>
+    <p class="text-center">[Date, Time, and Location]</p>
+    <ul class="list-group">
+        <li class="list-group-item">09:00 AM - Registration</li>
+        <li class="list-group-item">10:00 AM - Opening Keynote</li>
+        <li class="list-group-item">12:00 PM - Lunch Break</li>
+        <li class="list-group-item">01:00 PM - Workshop Session 1</li>
+        <li class="list-group-item">03:00 PM - Workshop Session 2</li>
+        <li class="list-group-item">05:00 PM - Closing Remarks</li>
+    </ul>
+</section>
+
+<section id="speakers" class="bg-success py-5">
+    <div class="container">
+        <h2 class="text-center">Meet Our Speakers</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="./spe1.jpg" class="img-fluid rounded-circle" alt="Speaker 1">
+                <h5>Speaker 1</h5>
+                <p>Expert in [Field]</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./sp2.jpg" class="img-fluid rounded-circle" alt="Speaker 2">
+                <h5>Speaker 2</h5>
+                <p>Specialist in [Topic]</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./sp3.jpg" class="img-fluid rounded-circle" alt="Speaker 3">
+                <h5>Speaker 3</h5>
+                <p>Leader in [Industry]</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="register" class="container my-5">
+    <h2 class="text-center">Register Now</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="ticket" class="form-label">Ticket Type</label>
+            <select class="form-select" id="ticket">
+                <option selected>General Admission</option>
+                <option>VIP</option>
+                <option>Student</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+</section>
+  <!-- Location Map -->
+  <div class="container my-5">
+    <h2>Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53524.166766422!2d44.00084332167968!3d9.561167900000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1628bf95cddf224b%3A0xf116151645b96316!2sHargeisa%20Theatre!5e1!3m2!1sen!2sso!4v1725121774682!5m2!1sen!2sso" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
+
+  <!-- Contact Information -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>Contact us at <a href="mailto:info@example.com">info@example.com</a> or call us at 063xxxxxx.</p>
+    <!-- Add social media links or other contact methods -->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
